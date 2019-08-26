@@ -8,6 +8,7 @@ public class LowArray {
 
     public LowArray(int len) {
         this.arr = new long[len];
+        currentIndex=0;
     }
 
     private int find(long searchKey) {
